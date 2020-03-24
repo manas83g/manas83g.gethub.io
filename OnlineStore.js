@@ -1,4 +1,4 @@
-alert ("it is just first step \nwish you like it");
+alert ("it is just first step \nwish you like it\nif you don't have enough money don't buy alot of stuffs ");
 var itemsC=[];
 var istotalhiden=true;
 
