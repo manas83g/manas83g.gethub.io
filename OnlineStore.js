@@ -1,4 +1,4 @@
-alert ("it is just first step \nwish you like it\nif you don't have enough money don't buy alot of stuffs ");
+alert ("it is just first step \nwish you like it\nif you don't have enough money don't buy alot of stuffs\nاذا مامعك مصاري ماتدين وتشتري  ");
 var itemsC=[];
 var istotalhiden=true;
 
