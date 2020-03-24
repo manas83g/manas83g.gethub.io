@@ -1,4 +1,4 @@
-alert ("it is just first step wish you like it");
+alert ("it is just first step /n wish you like it");
 var itemsC=[];
 var istotalhiden=true;
 
