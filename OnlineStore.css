@@ -2,7 +2,7 @@ body{
 	text-align: center;
 	color: midnightblue;
 	font-family: Helvetica Neue;
-	background: repeat url(images/bg.gif) center top;
+	background: repeat url(/bg.gif) center top;
 }
 div img{
 	border-radius: 60px 0 60px 0;
