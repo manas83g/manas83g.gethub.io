@@ -2,25 +2,38 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="OnlineStore.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo|Changa&display=swap" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
 	<title></title>
 </head>
 <body>
-<h1 class = "w3-hover-amber w3-amber w3-hover-aqua">Online Store</h1>
+	<div id="reg">
+<label>Username</label>
+<input type="email" name="email" placeholder="Enter your email" style="width:142px;">
+<label>Password</label>
+<input type="Password" name="Password" placeholder="Enter your Password" style="width:142px;">
+<button class="Login">Log In</button>
+</div><br>
+<h1 >Online Store</h1>
+<br>
 <img src="https://mimo.app/r/cart.png" id="cartImg" onclick="clickcart()" >
 <h2 id="itemsCount">0</h2>
 <p id="totalcart"></p>
 
-<div class="prd">
+<div class="prd" >
+	<animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="2"/> 
 <img calss="prdpic" src="https://mimo.app/r/backpack.png" width="100%">
 <h3>حقيبة نسائية</h3>
-<button onclick="addToCart(Backpack)">Add to cart </button>
+<button onclick="addToCart(Backpack)">أضف الى السلة </button>
 </div>
 
 <div class="prd">
 <img calss="prdpic" src="https://mimo.app/r/camera.png" width="100%">
 <h3> كاميرا</h3>
-<button onclick="addToCart(Camera)">Add to cart</button>
+<button onclick="addToCart(Camera)">أضف الى السلة</button>
 </div>
+
 <br>
 <script type="text/javascript" src="OnlineStore.js"></script>
 </body>
